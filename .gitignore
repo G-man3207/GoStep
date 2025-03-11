@@ -1,0 +1,56 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+vendor/
+
+# Go workspace file
+go.work
+
+# Certificate files
+*.crt
+*.csr
+*.pfx
+*.pem
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output directories
+dist/
+bin/
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Build artifacts
+*.syso
+*.o
+*.a
+*.rc
+*.res
+*.manifest
+
+# Debug files
+debug/
+
+# Environment files
+.env
+.env.local
+.env.*.local 
